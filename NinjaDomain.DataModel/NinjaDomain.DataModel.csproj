@@ -55,5 +55,11 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NinjaDomain.Classes\NinjaDomain.Classes.csproj">
+      <Project>{9F32F076-5A13-4054-B91A-3AC285277FD8}</Project>
+      <Name>NinjaDomain.Classes</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
