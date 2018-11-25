@@ -9,5 +9,6 @@ namespace NinjaDomain.DataModel
         public DbSet<Clan> Clans { get; set; }
         public DbSet<NinjaEquipment> Equipment { get; set; }
 
+
     }
 }
